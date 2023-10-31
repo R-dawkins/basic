@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
 // ReactDOM = virtual DOM
 // yarn start => react app start => public의 index.html 확인 >> body안의 div id 확인 >> index.js에서 div의 id를 가져와서 
