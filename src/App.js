@@ -1,13 +1,17 @@
 import logo from './logo.svg';
-import './App.css';
-
+import './App.css'; // js가 기본이기때문에 js에 css import 필요
+// jsx javascript xml
 function App() {
   return (
-    <div className="App">
+    <h1>Welcome to React World!</h1>
+  );
+}
+/* 
+<div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Test Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -19,7 +23,5 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
-
+ */
 export default App;
