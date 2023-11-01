@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
+import AppCounter from './AppCounter.jsx'
+
 // ReactDOM = virtual DOM
 // yarn start => react app start => public의 index.html 확인 >> body안의 div id 확인 >> index.js에서 div의 id를 가져와서 
 // >> virtual dom에 등록, 보관 >> 채워주는작업 .render >> 채워주려면 컴포넌트 필요 >> 그 컴포넌트가 app.js = App
@@ -13,7 +15,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <AppCounter />
   </React.StrictMode>
 );
 

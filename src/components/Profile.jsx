@@ -1,9 +1,15 @@
-export default function Profile() {
+import Avatar from "./Avatar";
+
+export default function Profile({image,name,title,isNew}) {// props 일반적으로 매개변수라고 부르는 것을 리액트에서는 properties라고 한다 (속성값)
   return (
     <div className="profile">
-      <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"/>
-      <h1>James Kim</h1>
-      <p>프론트 개발자</p>
+      <Avatar
+      image={image}
+      isNew={isNew}
+      />
+      <h1>{name}</h1>
+      <p>{title}</p>
     </div>
   );
 }
+// isNew && '' : isNew가 true이면 ''가 출력 
