@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App.jsx';
+import App from './AppToggle';
 import reportWebVitals from './reportWebVitals';
 
 // ReactDOM = virtual DOM
