@@ -1,3 +1,18 @@
+.container{
+  width: 500px;
+  margin: auto;
+}
+
+.banner{
+  background-color: orange;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.total{
+  font-size: 17pt;
+}
+
 .number{
   display: block;
   font-size: 30pt;

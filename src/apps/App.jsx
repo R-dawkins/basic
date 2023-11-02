@@ -1,6 +1,6 @@
 import './App.css'; // js가 기본이기때문에 js에 css import 필요
-import Profile from './components/Profile'
-import Avatar from './components/Avatar';
+import Profile from '../components/Profile'
+import Avatar from '../components/Avatar';
 // jsx javascript xml
 
 function App() { // return시 반드시 하나의 태그만 출력한다 >> JSX 문법 >> 여러개의 태그를 출력하고 싶으면 상위태그로 묶어주어야한다
