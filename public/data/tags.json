@@ -1,0 +1,18 @@
+[
+  {
+    "color":"tag_pink",
+    "name":"세일"
+  },
+  {
+    "color":"tag_sky",
+    "name":"쿠폰"
+  },
+  {
+    "color":"tag_orange",
+    "name":"증정"
+  },
+  {
+    "color":"tag_green",
+    "name":"오늘드림"
+  }
+]

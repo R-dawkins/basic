@@ -1,0 +1,58 @@
+.content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_wrap{
+  width: 20%;
+}
+
+.product_img{
+width: 215px;
+height: 215px;
+}
+
+.product_title{
+/* text-wrap: nowrap; */
+text-overflow: ellipsis;
+overflow: hidden;
+word-break: keep-all;
+height: 40px;
+font-size: 14px;
+line-height: 20px;
+text-align: left;
+padding: 2px 0;
+box-sizing: border-box;
+}
+
+.product_price{
+font-size: 20px;
+}
+
+.tag_pink{
+background-color: pink;
+}
+.tag_sky{
+  background-color: skyblue;
+}
+.tag_orange{
+  background-color: orange;
+}
+.tag_green{
+  background-color: greenyellow;
+}
+
+.products_tag{
+  display: inline-block;
+  width: 40px;
+  height: 18px;
+  border-radius: 9px;
+  line-height: 17px!important;
+  color: #fff!important;
+  font-size: 10px!important;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none!important;
+  margin: 0!important;
+}

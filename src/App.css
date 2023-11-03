@@ -1,3 +1,13 @@
+header{
+  height: 100px;
+  background-color:white;
+}
+
+.wrap_container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .container{
   width: 500px;
   margin: auto;
