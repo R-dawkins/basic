@@ -27,7 +27,21 @@ export default function App(){
     // setName(e.target.value);
     const {name,value} = e.target;
     console.log(name)
+    //e.target.name과 e.target.value를 구조분해하여 개별변수에 할당한 후
     setForm({...form,[name]:value})
+    // spread 연산자로 form 기존 객체에 e.target.name에 해당하는 키(이벤트가 일어나고 있는 input의 name에 해당하는 키값이 [name]에 할당됨)와
+    // e.target.value에 해당하는 value(마찬가지로 이벤트가 일어나고 있는 input의 value값)를 추가하여 새로운 객체로 만듦 
+    
+    /* React에서 상태는 컴포넌트가 렌더링될 때마다 React에 의해 추적됩니다. 상태가 변경되면 React는 컴포넌트를 다시 렌더링하여 변경 사항을 반영합니다.
+
+    상태를 불변으로 유지하면 React가 상태의 변경을 쉽게 감지할 수 있습니다. 불변 상태는 객체의 참조를 변경하지 않고 객체의 새 버전을 생성하는 것을 의미합니다.
+
+    상태를 변형하면 React는 상태의 변경을 감지하지 못합니다. 이는 이전 상태의 렌더링 "스냅샷"이 그대로 유지되기 때문입니다.
+
+    따라서 React에서 상태를 업데이트하려면 항상 새 버전을 생성하고 상태를 이 버전으로 설정해야 합니다.
+
+    객체 확산 구문은 기존 객체에 새로운 키-값 쌍을 추가하는 방법입니다. 이 구문은 기존 객체의 깊은 복사본을 만들지 않고, 기존 객체에 새 값을 추가하여 새로운 객체를 만듭니다. */
+    
     console.log(form);
     if(form.name.length >= 10){
       alert('이름은 10자 이내로 작성해주세요');
